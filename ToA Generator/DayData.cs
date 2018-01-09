@@ -17,7 +17,8 @@ namespace DayData
 
         public DayData()
         {
-
+            morningRain = GenerateRain();
+            eveningRain = GenerateRain();
         }
 
         public string GenerateRain()
